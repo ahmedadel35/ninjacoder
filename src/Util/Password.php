@@ -5,12 +5,12 @@ namespace app\Util;
 class Password
 {
     // default algorthim to be used
-    const DEFAULT_ALGO = PASSWORD_ARGON2ID;
+    const DEFAULT_ALGO = PASSWORD_BCRYPT;
     /**
     * * consider increasing it depending on your hardware 
     */
     // default memory cost in bytes ==> 1024
-    const DEFAULT_MEMORY = PASSWORD_ARGON2_DEFAULT_MEMORY_COST;
+    const DEFAULT_MEMORY = PASSWORD_BCRYPT_DEFAULT_COST;
     // default time cost
     const DEFUALT_TIME = 5;
     // random string length
