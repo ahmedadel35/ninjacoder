@@ -4,13 +4,13 @@
         <div v-if="hasOverlay">
             <div class="card-body position-relative p-0">
                 <img :src="img" class="card-img" :alt="title" />
-                <div class="card-img-overlay">
+                <div class="card-img-overlay text-light">
                     <slot name="overlay"></slot>
                 </div>
             </div>
             <div class="card-footer text-dark">
                 <h5 class="card-title">
-                    <a :href="href" class="text-primary" v-text="title"></a>
+                    <a :href="href" class="text-primary" target="_blank" v-text="title"></a>
                 </h5>
                 <div class="tags d-block text-capitalize">
                     <slot name="tags"></slot>
