@@ -38,6 +38,7 @@ trait HomeModelDataTrait
         $projects = [
             $this->createProject(
                 'MyBlog',
+                'http://aboadeltestblog.epizy.com/',
                 'testBlog.png',
                 'Ahmed Adel',
                 'an laravel blog',
@@ -45,6 +46,7 @@ trait HomeModelDataTrait
             ),
             $this->createProject(
                 'onlineShop',
+                '#',
                 $this->randImage(),
                 'Coming Soon',
                 'Coming Soon',
@@ -52,6 +54,7 @@ trait HomeModelDataTrait
             ),
             $this->createProject(
                 'RestFul API',
+                '#',
                 $this->randImage(),
                 'Coming Soon',
                 'an restful api using lumen',
@@ -97,6 +100,7 @@ trait HomeModelDataTrait
 
     private function createProject(
         string $title,
+        string $href,
         string $img,
         string $client,
         string $info,
@@ -104,6 +108,7 @@ trait HomeModelDataTrait
     ) : object {
         return (object) [
             'title' => $title,
+            'href' => $href,
             'img' => $img,
             'client' => $client,
             'info' => $info,
