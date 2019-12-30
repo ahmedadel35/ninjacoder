@@ -38,46 +38,25 @@ trait HomeModelDataTrait
         $projects = [
             $this->createProject(
                 'MyBlog',
-                $this->randImage(),
-                'MySelf',
-                'an laravel blog to show what i can do as an project',
-                ['laravel', 'vueJs', 'MySql', 'typeScript', 'bootstrap 4']
+                'testBlog.png',
+                'Ahmed Adel',
+                'an laravel blog',
+                ['laravel', 'MySql', 'vueJs', 'typeScript', 'bootstrap 4']
             ),
             $this->createProject(
-                'MyBlog',
+                'onlineShop',
                 $this->randImage(),
-                'MySelf',
-                'an laravel blog to show what i can do as an project',
-                ['laravel', 'vueJs', 'MySql', 'typeScript', 'bootstrap 4']
+                'Coming Soon',
+                'Coming Soon',
+                ['laravel', 'vueJs', 'typeScript', 'bootstrap 4']
             ),
             $this->createProject(
-                'MyBlog',
+                'RestFul API',
                 $this->randImage(),
-                'MySelf',
-                'an laravel blog to show what i can do as an project',
-                ['laravel', 'vueJs', 'MySql', 'typeScript', 'bootstrap 4']
-            ),
-            $this->createProject(
-                'MyBlog',
-                $this->randImage(),
-                'MySelf',
-                'an laravel blog to show what i can do as an project',
-                ['laravel', 'vueJs', 'MySql', 'typeScript', 'bootstrap 4']
-            ),
-            $this->createProject(
-                'MyBlog',
-                $this->randImage(),
-                'MySelf',
-                'an laravel blog to show what i can do as an project',
-                ['laravel', 'vueJs', 'MySql', 'typeScript', 'bootstrap 4']
-            ),
-            $this->createProject(
-                'MyBlog',
-                $this->randImage(),
-                'MySelf',
-                'an laravel blog to show what i can do as an project',
-                ['laravel', 'vueJs', 'MySql', 'typeScript', 'bootstrap 4']
-            ),
+                'Coming Soon',
+                'an restful api using lumen',
+                ['lumen', 'bootstrap 4']
+            )
         ];
 
         $posts = [];
