@@ -47,12 +47,12 @@ return [
                 'Up_To_Date' => [
                     'title' => 'Up to Date',
                     'icon' => 'laptop-code',
-                    'txt' => 'using always the latest versions of my tools.'
+                    'txt' => 'I always use the latest versions of my tools.'
                 ],
                 'Multi_Language' => [
                     'title' => 'Multi Language',
                     'icon' => 'language',
-                    'txt' => 'try this in this website.'
+                    'txt' => 'try this feature on this website.'
                 ],
             ],
             'skill' => [
