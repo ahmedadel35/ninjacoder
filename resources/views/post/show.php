@@ -47,7 +47,8 @@
         <h2 class='mt-4'><?= $posts->title ?></h2>
 
         <p class='lead'>
-            <div id='post-body' v-pre>
+            <div id='post-body' <?= $this->uri('/blog/posts/' . $posts->slug . '/ar') ?
+                    'class="text-right" dir="rtl"' : '' ?> v-pre>
                 <?= $this->re($this->uri('/blog/posts/' . $posts->slug . '/ar') ?
                     $posts->body_ar : $posts->body) ?>
             </div>
