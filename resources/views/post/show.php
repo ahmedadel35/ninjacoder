@@ -44,7 +44,7 @@
             </li>
         </ul>
 
-        <h2 class='mt-4'><?= $posts->title ?></h2>
+        <h2 class='mt-4 text-primary pb-5'><?= $posts->title ?></h2>
 
         <p class='lead'>
             <div id='post-body' <?= $this->uri('/blog/posts/' . $posts->slug . '/ar') ?
