@@ -55,11 +55,11 @@ class Category
     public function loadPosts(int $id) : array
     {
         $stmt = 'SELECT * FROM posts AS p 
-        JOIN post_categoires AS pc ON pc.catId = 2 AND pc.postId = p.id';
+        INNER JOIN post_categoires AS pc ON pc.catId = :cid AND pc.postId = p.id';
 
         $sql = $this->con->prepare($stmt);
 
-        $sql->execute();
+        $sql->execute(['cid' => $id]);
 
         return $sql->fetchAll();
     }
