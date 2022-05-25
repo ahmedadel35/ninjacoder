@@ -19,7 +19,7 @@
         "league/plates": "v3.*",
         "hashids/hashids": "^4.0",
         "fzaninotto/faker": "^1.8",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.4",
         "respect/validation": "^1.1",
         "symfony/translation": "v4.4.0",
         "erusev/parsedown": "^1.7",
